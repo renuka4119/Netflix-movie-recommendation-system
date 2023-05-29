@@ -1,0 +1,24 @@
+Netflix-movie-recommendation-system
+
+Many major online retailer recommendation systems are used on websites to help shoppers determine which products to buy using filtering techniques. E-commerce businesses can take
+advantage of the recommendation system to increase their sales. MOVREC, a movie recommendation system that supports collaborative filtering, takes user-supplied knowledge, analyzes that knowledge, and then uses the k-means algorithm to select the most suitable movie
+for the user at that time. In this study, we examine how to research new users and their Preferences using a collaborative filtering recommendation system . Scientific theory used to
+select the things that will provide the greatest value to the referral system, an overall strategy used to select things on which users are expected to have an opinion and Personalization
+techniques are used to predict which articles a user will have a review for. This information will empower researchers and provide a roadmap for improving current recommendation
+techniques. A movie recommendation system can be a tool that allows users to group with others with similar interests. Basically, the goal of the recommender system is to find things that an
+individual would find interesting. Furthermore, various characteristics need to be considered inorder to create a personalized list of useful and entertaining materials for each user/individual. 
+Recommendation systems are algorithms based on artificial intelligence that analyze all available possibilities and provide a personalized list of things that are interesting and relevant
+to a particular person. These recommendations are based on their profile, including their search/browsing history, what people with similar characteristics/demographics arewatching, 
+and how likely you are to watch these movies. This is usually done through the use of content based filtering.
+
+The dataset must be preprocessed, and the relevant features must be combined into a single feature. We'll need to convert the text from that feature into vectors later. Later, we must 
+determine the similarity of the vectors. Finally, obtain recommendations based on the system architecture described below. Firstly, I collected the dataset from TMDB movie dataset, where 
+I have collected two datasets that is movies and credits dataset and displayed the data which is present in the movies and credits dataset by loading the dataset on to the console that I am 
+working on , In the next step I have done data preprocessing to identify useful data and unnecessary data ,during this I faced problems like missing data values and data imbalance 
+conditions and gave an explanation on how to solve this problem and then I visualized the dataset to know which features helpful for recommendation ,later on I have converted the 
+movies data into vectors using count vectorizer tool which is present in scikit-learn library, this tool will convert the given text to vectors on the basis of count of each word that occur in the 
+entire text without including stop words And cosine-similarity is used to identify the angle differences between two vectors to form similarity matrix to identify the similarity among the 
+movies and a recommend method is built to recommend a movie to the user this is how the model is build using count vectorizer and cosine-similarity 
+
+Command to run
+streamlit run app.py(Pycharm)
